@@ -1,4 +1,4 @@
-# codeigniter-ckeditor-filemanager
+# Codeigniter 3 with CKEditor & Filemanager
 [Codeigniter](http://codeigniter.com/) with [CKEDITOR](http://ckeditor.com/) and [FILEMANAGER](https://github.com/simogeo/Filemanager) using session for authenctication
 
 # Demo
@@ -76,3 +76,6 @@ and replace ```filebrowserImageBrowseUrl```
 # Let's try
 for the example i create two page. first without session so when we access the upload image manager we will get notification that we not authorized to access it.
 and the second i give session named upload_image_file_manager so when we do the step before we can access file manager like upload files and take it to ckeditor textarea
+
+# Note !!
+work only for Codeigniter 3, if you used Codeigniter 2 you should use native session PHP for authentication
